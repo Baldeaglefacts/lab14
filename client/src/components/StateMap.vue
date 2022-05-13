@@ -54,6 +54,7 @@ export default {
           .catch( err => {
             if (err.response && err.response.status === 404) { // Not found
               this.state.name = '?'   // TODO - think about the best way to communicate this to the user
+
             }
             else {  // a different error
               alert('Sorry, error fetching data about this state')
