@@ -2,7 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import StateList from '@/components/StateList'
 import AboutSite from "@/components/AboutSite";
 import StateMap from "@/components/StateMap";
-import NotFound from  "@components/NotFound";
+import NotFound from "@/components/NotFound";
 
 
 export default createRouter({
