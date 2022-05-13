@@ -8,6 +8,9 @@
       <span class="p-3">
         <router-link to="/about"><button>About this site</button></router-link>
       </span>
+      <span>
+        <router-link to="/visited"><button>Visited States</button></router-link>
+      </span>
     </div>
     <div class="credits">
       <p class="text-right p-2">Header image by
